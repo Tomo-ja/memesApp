@@ -1,8 +1,10 @@
+import Header from './compornents/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Header />
     </div>
   );
 }

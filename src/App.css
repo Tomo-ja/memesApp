@@ -1,0 +1,34 @@
+.App {
+  width: 550px;
+  margin: 10px;
+  border: 1px solid #c4c4c4;
+}
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px 37px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+header h1 {
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 20.74px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  color: #fff;
+}
+header p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+}
