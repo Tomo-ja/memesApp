@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .App {
   width: 550px;
   margin: 10px;
@@ -6,7 +9,8 @@
 h1,
 h2,
 h3,
-p {
+p,
+input {
   padding: 0;
   margin: 0;
 }
@@ -31,4 +35,37 @@ header p {
   font-size: 12px;
   line-height: 15px;
   text-align: right;
+}
+.meme {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 36px;
+}
+.meme input {
+  width: 230px;
+  height: 35px;
+  margin-bottom: 15px;
+  padding-left: 11px;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+}
+.meme input::placeholder {
+  font-size: 12px;
+  color: #0d0d0d;
+}
+.meme input:first-child {
+  margin-right: 15px;
+}
+.meme input:last-child {
+  width: 100%;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+}
+.meme .submit {
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: -0.1em;
+  color: #fff;
 }
